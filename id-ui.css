@@ -1,0 +1,41 @@
+body {
+	color: #003198;
+	font-family: monospace;
+}
+
+#header {
+}
+
+div #info {
+	text-align: justify;
+	position: relative;
+	transform: translateY(60%);
+	margin-bottom: 20px;
+}
+
+#name {
+	display: block;
+	margin: 15px;
+	margin-bottom: -10px;
+	position: relative;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 30pt;
+}
+
+#card {
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    max-width: 60%;
+    max-height: 60%;
+    overflow-y: overlay;
+    overflow-x: overlay;
+    padding: 10px;
+}
+
+#picture {
+	float: left;
+}
+
